@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url("../images/bloco.jpg");
 }
 
 .menu {
@@ -13,6 +14,11 @@
     width: 100%;
     background-color: #080000;
     color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu h2 {
+    padding-bottom: 5px;
 }
 
 .panel {
@@ -20,16 +26,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ff0000;
 }
 
 .square {
     height: 150px;
     width: 150px;
     border: 1px solid black;
-    background-color: #7fffd4;
+    background-color: #b0cec4;
 }
 
 .enemy {
-    background-color: #ff0000;
+    background-image: url("../images/2012-04-18-dwetona300.webp");
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
 }
